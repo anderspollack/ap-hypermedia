@@ -1,14 +1,8 @@
 # AP Hypermedia
 
-## Misc
+## Docker
 
-``` sh
-docker pull alpine                              # (optional) pull in latest alpine image
-```
-
-## Docker container
-
-Easy way for dev is `docker compose up`. http://localhost:4444
+`docker compose up` http://localhost:4444
 
 ### Build
 
@@ -29,6 +23,3 @@ docker container run -ti ap-hypermedia /bin/sh
 exit
 # CTRL-D also exits
 ```
-
-## NGINX
-
