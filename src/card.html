@@ -1,0 +1,12 @@
+<article class="card" onclick="onCardClick()" draggable="true">
+  <h1>Card</h1>
+  <script>
+  // only runs when browsing to /card
+  window.addEventListener('load', () => {
+    const h1 = document.createElement('h1');
+    h1.innerText = Math.ceil(Math.random() * 52);
+    document.querySelector('.card').append(h1);
+  });
+  </script>
+  <link rel="stylesheet" href="card.css" />
+</article>
